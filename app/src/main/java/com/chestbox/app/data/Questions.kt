@@ -9,6 +9,6 @@ data class Questions(
     @SerializedName("b") @Expose val b: String? = null,
     @SerializedName("c") @Expose val c: String? = null,
     @SerializedName("d") @Expose val d: String? = null,
-    @SerializedName("answer") @Expose val answer: String? = null,
+    @SerializedName("answer") @Expose val answer: Int
 
     )
