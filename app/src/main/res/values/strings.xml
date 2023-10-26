@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="network_access_is_required_for_the_application_to_work">Network access is required for the application to work</string>
+
+</resources>
