@@ -24,7 +24,11 @@
         android:id="@+id/chooseQuizFragment"
         android:name="com.chestbox.app.quiz.ChooseQuizFragment"
         android:label="fragment_choose_quiz"
-        tools:layout="@layout/fragment_choose_quiz" />
+        tools:layout="@layout/fragment_choose_quiz" >
+        <action
+            android:id="@+id/action_chooseQuizFragment_to_basketballFragment"
+            app:destination="@id/basketballFragment" />
+    </fragment>
     <fragment
         android:id="@+id/internetDisableFragment"
         android:name="com.chestbox.app.InternetDisableFragment"
@@ -38,5 +42,23 @@
         <argument
             android:name="url"
             app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/basketballFragment"
+        android:name="com.chestbox.app.quiz.BasketballFragment"
+        android:label="fragment_basketball"
+        tools:layout="@layout/fragment_basketball" >
+        <action
+            android:id="@+id/action_basketballFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.chestbox.app.quiz.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <argument
+            android:name="mCorrectAnswers"
+            app:argType="integer" />
     </fragment>
 </navigation>
