@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Who is known as 'The Greatest' and considered one of the greatest boxers of all time?",
+    "a": "Mike Tyson",
+    "b": "Floyd Mayweather",
+    "c": "Muhammad Ali",
+    "d": "Sugar Ray Leonard",
+    "answer": "Muhammad Ali"
+  },
+  {
+    "question": "What is the term for the padded gloves boxers wear during matches?",
+    "a": "Mittens",
+    "b": "Gloves",
+    "c": "Paws",
+    "d": "Fist guards",
+    "answer": "Gloves"
+  },
+  {
+    "question": "In boxing, what is the maximum number of rounds in a professional championship bout?",
+    "a": "10",
+    "b": "12",
+    "c": "15",
+    "d": "20",
+    "answer": "12"
+  },
+  {
+    "question": "Who holds the record for the most heavyweight boxing title defenses?",
+    "a": "Lennox Lewis",
+    "b": "Joe Frazier",
+    "c": "George Foreman",
+    "d": "Joe Louis",
+    "answer": "Joe Louis"
+  },
+  {
+    "question": "In boxing, what is the term for a punch thrown with the leading hand?",
+    "a": "Jab",
+    "b": "Hook",
+    "c": "Uppercut",
+    "d": "Cross",
+    "answer": "Jab"
+  },
+  {
+    "question": "Which boxer is known for the nickname 'Iron Mike'?",
+    "a": "Mike Tyson",
+    "b": "Evander Holyfield",
+    "c": "Larry Holmes",
+    "d": "George Foreman",
+    "answer": "Mike Tyson"
+  },
+  {
+    "question": "Who became the first female boxer to win an Olympic gold medal at the 2012 London Olympics?",
+    "a": "Laila Ali",
+    "b": "Holly Holm",
+    "c": "Katie Taylor",
+    "d": "Claressa Shields",
+    "answer": "Claressa Shields"
+  },
+  {
+    "question": "What is the term for a knockout in boxing where a fighter is unable to get up before the count of ten?",
+    "a": "Technical knockout",
+    "b": "Standing count",
+    "c": "Referee stoppage",
+    "d": "Full count",
+    "answer": "Technical knockout"
+  },
+  {
+    "question": "Which famous boxing match was billed as the 'Fight of the Century'?",
+    "a": "Muhammad Ali vs. Joe Frazier I",
+    "b": "Mike Tyson vs. Evander Holyfield II",
+    "c": "Floyd Mayweather vs. Manny Pacquiao",
+    "d": "George Foreman vs. Muhammad Ali",
+    "answer": "Muhammad Ali vs. Joe Frazier I"
+  },
+  {
+    "question": "Who is the only boxer to have won world titles in eight different weight divisions?",
+    "a": "Oscar De La Hoya",
+    "b": "Manny Pacquiao",
+    "c": "Floyd Mayweather",
+    "d": "Sugar Ray Robinson",
+    "answer": "Manny Pacquiao"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Who is considered one of the greatest ice hockey players of all time?",
+    "a": "Wayne Gretzky",
+    "b": "Mario Lemieux",
+    "c": "Bobby Orr",
+    "d": "Sidney Crosby",
+    "answer": "Wayne Gretzky"
+  },
+  {
+    "question": "Which country won the most recent Ice Hockey World Championship?",
+    "a": "Canada",
+    "b": "Russia",
+    "c": "Sweden",
+    "d": "United States",
+    "answer": "Canada"
+  },
+  {
+    "question": "In which year did ice hockey become an official Olympic sport for men?",
+    "a": "1908",
+    "b": "1924",
+    "c": "1936",
+    "d": "1952",
+    "answer": "1924"
+  },
+  {
+    "question": "What is the term for a player being temporarily suspended from the game for an infraction?",
+    "a": "Penalty",
+    "b": "Timeout",
+    "c": "Substitution",
+    "d": "Intermission",
+    "answer": "Penalty"
+  },
+  {
+    "question": "Which NHL team has won the most Stanley Cup championships?",
+    "a": "Montreal Canadiens",
+    "b": "Toronto Maple Leafs",
+    "c": "Detroit Red Wings",
+    "d": "Chicago Blackhawks",
+    "answer": "Montreal Canadiens"
+  },
+  {
+    "question": "What is the area in front of the opposing team's goal called in ice hockey?",
+    "a": "Goal area",
+    "b": "Crease",
+    "c": "Penalty box",
+    "d": "Blue line",
+    "answer": "Crease"
+  },
+  {
+    "question": "Which player is known for the famous 'Gordie Howe hat trick'?",
+    "a": "Gordie Howe",
+    "b": "Maurice Richard",
+    "c": "Bobby Hull",
+    "d": "Wayne Gretzky",
+    "answer": "Gordie Howe"
+  },
+  {
+    "question": "What is the maximum number of players allowed on the ice for one team in a standard ice hockey game?",
+    "a": "5",
+    "b": "6",
+    "c": "7",
+    "d": "8",
+    "answer": "6"
+  },
+  {
+    "question": "In ice hockey, what is the term for a situation in which a team is short-handed due to penalties?",
+    "a": "Power play",
+    "b": "Faceoff",
+    "c": "Icing",
+    "d": "Offside",
+    "answer": "Power play"
+  },
+  {
+    "question": "Who is the all-time leading scorer in the National Hockey League (NHL)?",
+    "a": "Wayne Gretzky",
+    "b": "Mario Lemieux",
+    "c": "Bobby Orr",
+    "d": "Jaromir Jagr",
+    "answer": "Wayne Gretzky"
+  }
+]
