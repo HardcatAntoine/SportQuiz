@@ -5,7 +5,7 @@
     "b": "Michael Jordan",
     "c": "Kobe Bryant",
     "d": "Magic Johnson",
-    "answer": "LeBron James"
+    "answer": 1
   },
   {
     "question": "What is the standard height of an NBA basketball hoop in feet?",
@@ -13,7 +13,7 @@
     "b": "9 feet",
     "c": "11 feet",
     "d": "12 feet",
-    "answer": "10 feet"
+    "answer": 1
   },
   {
     "question": "Which NBA team has won the most championships in history?",
@@ -21,7 +21,7 @@
     "b": "Boston Celtics",
     "c": "Chicago Bulls",
     "d": "Golden State Warriors",
-    "answer": "Boston Celtics"
+    "answer": 2
   },
   {
     "question": "How many players are there on a standard basketball team on the court at a time?",
@@ -29,7 +29,7 @@
     "b": "5",
     "c": "6",
     "d": "7",
-    "answer": "5"
+    "answer": 2
   },
   {
     "question": "Who holds the record for the most points scored in a single NBA game with 100 points?",
@@ -37,7 +37,7 @@
     "b": "Kobe Bryant",
     "c": "Michael Jordan",
     "d": "Wilt Chamberlain",
-    "answer": "Wilt Chamberlain"
+    "answer": 4
   },
   {
     "question": "What is the term for a shot in basketball made from beyond the three-point line?",
@@ -45,7 +45,7 @@
     "b": "Long shot",
     "c": "Downtown shot",
     "d": "Three-pointer",
-    "answer": "Three-pointer"
+    "answer": 4
   },
   {
     "question": "Which NBA player is known for the nickname 'The Black Mamba'?",
@@ -53,7 +53,7 @@
     "b": "Magic Johnson",
     "c": "Kobe Bryant",
     "d": "Shaquille O'Neal",
-    "answer": "Kobe Bryant"
+    "answer": 3
   },
   {
     "question": "What is the term for a dunk in which a player jumps, puts the ball through the hoop, and then hangs on the rim?",
@@ -61,7 +61,7 @@
     "b": "Slam dunk",
     "c": "Rim-hanger",
     "d": "Double dunk",
-    "answer": "Slam dunk"
+    "answer": 2
   },
   {
     "question": "Which college basketball tournament is known for 'March Madness'?",
@@ -69,7 +69,7 @@
     "b": "NIT Tournament",
     "c": "ACC Tournament",
     "d": "Big East Tournament",
-    "answer": "NCAA Tournament"
+    "answer":1
   },
   {
     "question": "Who is considered one of the greatest basketball coaches in NBA history and known for coaching the Chicago Bulls to six championships?",
@@ -77,6 +77,6 @@
     "b": "Phil Jackson",
     "c": "Gregg Popovich",
     "d": "Red Auerbach",
-    "answer": "Phil Jackson"
+    "answer": 1
   }
 ]
