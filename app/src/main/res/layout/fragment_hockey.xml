@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/b"
     tools:context=".quiz.HockeyFragment">
 
     <LinearLayout
@@ -20,7 +20,7 @@
             android:layout_marginTop="60dp"
             android:layout_marginBottom="40dp"
             android:gravity="center"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/black"
             android:textSize="34sp"
             tools:text="Guess the SPORT" />
 
@@ -43,7 +43,7 @@
                 android:max="10"
                 android:minHeight="50dp"
                 android:progress="0"
-                android:progressTint="#FFD600" />
+                android:progressTint="@color/black" />
 
             <TextView
                 android:id="@+id/tv_progress"
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:padding="15dp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textColorHint="#7A8089"
                 android:textSize="16sp"
                 android:textStyle="bold"

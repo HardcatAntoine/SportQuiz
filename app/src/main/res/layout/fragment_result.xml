@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/b"
     android:orientation="vertical"
     tools:context=".quiz.ResultFragment">
 
@@ -23,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_gravity="center"
+        android:layout_marginTop="32dp"
         android:contentDescription="image"
         android:src="@drawable/ic_trophy" />
 
@@ -33,7 +34,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
         android:text="Congratulations!"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -43,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/black"
         android:textSize="20sp"
         tools:text="Your Score is 9" />
 

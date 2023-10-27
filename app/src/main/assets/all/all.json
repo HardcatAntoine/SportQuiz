@@ -5,7 +5,7 @@
       "b": "Germany",
       "c": "Uruguay",
       "d": "Argentina",
-      "answer": "Uruguay"
+      "answer": 3
     },
     {
       "question": "Which game uses the term 'deuce'?",
@@ -13,7 +13,7 @@
       "b": "Golf",
       "c": "Soccer",
       "d": "Bowling",
-      "answer": "Golf"
+      "answer": 2
     },
     {
       "question": "Which city is home to the New York Yankees team?",
@@ -21,7 +21,7 @@
       "b": "Boston",
       "c": "New York",
       "d": "Chicago",
-      "answer": "New York"
+      "answer": 3
     },
     {
       "question": "In which sport is a ribbon used?",
@@ -29,7 +29,7 @@
       "b": "Swimming",
       "c": "Taekwondo",
       "d": "Figure skating",
-      "answer": "Rhythmic gymnastics"
+      "answer": 1
     },
     {
       "question": "Who has won the most medals in the Olympics?",
@@ -37,7 +37,7 @@
       "b": "Michael Phelps",
       "c": "Carl Lewis",
       "d": "Muhammad Ali",
-      "answer": "Michael Phelps"
+      "answer": 2
     },
     {
       "question": "In which sport is a board used for surfing?",
@@ -45,7 +45,7 @@
       "b": "Underwater diving",
       "c": "Sailing",
       "d": "Surfing",
-      "answer": "Surfing"
+      "answer": 4
     },
     {
       "question": "In which year are the modern Olympic Games considered to be founded?",
@@ -53,7 +53,7 @@
       "b": "1900",
       "c": "1924",
       "d": "1936",
-      "answer": "1896"
+      "answer": 1
     },
     {
       "question": "What animal is the symbol of the Olympic Games?",
@@ -61,7 +61,7 @@
       "b": "Lion",
       "c": "Tiger",
       "d": "Eagle",
-      "answer": "Lion"
+      "answer": 2
     },
     {
       "question": "Which sport includes judo?",
@@ -69,7 +69,7 @@
       "b": "Wrestling",
       "c": "Swimming",
       "d": "Rhythmic gymnastics",
-      "answer": "Wrestling"
+      "answer": 2
     },
     {
       "question": "What material is used to make standard table tennis balls?",
@@ -77,7 +77,7 @@
       "b": "Glass",
       "c": "Plastic",
       "d": "Iron",
-      "answer": "Plastic"
+      "answer": 3
     },
     {
       "question": "In which sport do you encounter the terms 'mixed doubles' and 'backhand'?",
@@ -85,7 +85,7 @@
       "b": "Tennis",
       "c": "Badminton",
       "d": "Bowling",
-      "answer": "Tennis"
+      "answer": 3
     },
     {
       "question": "How many players make up a full American football team?",
@@ -93,7 +93,7 @@
       "b": "11",
       "c": "9",
       "d": "10",
-      "answer": "11"
+      "answer": 2
     },
     {
       "question": "Which sport is known for 'The Thrilla in Manila'?",
@@ -101,7 +101,7 @@
       "b": "Chess",
       "c": "Figure skating",
       "d": "Boxing",
-      "answer": "Boxing"
+      "answer": 4
     },
     {
       "question": "In which country did the 2020 Summer Olympics take place?",
@@ -109,7 +109,7 @@
       "b": "China",
       "c": "USA",
       "d": "Russia",
-      "answer": "Japan"
+      "answer": 1
     },
     {
       "question": "Which sport involves throws, holds, and strangles?",
@@ -117,7 +117,7 @@
       "b": "Greco-Roman wrestling",
       "c": "Judo",
       "d": "Kickboxing",
-      "answer": "Greco-Roman wrestling"
+      "answer": 2
     },
     {
       "question": "What is the name of the stadium where athletics competitions are held?",
@@ -125,7 +125,7 @@
       "b": "Court",
       "c": "Arena",
       "d": "Athletics arena",
-      "answer": "Athletics arena"
+      "answer": 4
     },
     {
       "question": "Which sport includes competitions in the hammer throw?",
@@ -133,7 +133,7 @@
       "b": "Handball",
       "c": "Hammer throw",
       "d": "Archery",
-      "answer": "Hammer throw"
+      "answer": 3
     },
     {
       "question": "What is the term for a winning serve in tennis, which is not returned by the opponent?",
@@ -141,7 +141,7 @@
       "b": "Volley",
       "c": "Ace",
       "d": "Pair",
-      "answer": "Ace"
+      "answer": 3
     },
     {
       "question": "In which sport are the terms 'baton' and 'relay' used?",
@@ -149,7 +149,7 @@
       "b": "Swimming",
       "c": "Cycling",
       "d": "Rowing",
-      "answer": "Running"
+      "answer": 1
     },
     {
       "question": "Which sport includes 'penalties'?",
@@ -157,7 +157,7 @@
       "b": "Basketball",
       "c": "Hockey",
       "d": "Tennis",
-      "answer": "Soccer"
+      "answer": 1
     },
     {
       "question": "In which sport do champions wear a 'green jacket'?",
@@ -165,7 +165,7 @@
       "b": "Boxing",
       "c": "Formula 1",
       "d": "Tennis",
-      "answer": "Golf"
+      "answer": 1
     },
     {
       "question": "How many players make up a full baseball team?",
@@ -173,7 +173,7 @@
       "b": "9",
       "c": "11",
       "d": "6",
-      "answer": "9"
+      "answer": 2
     },
     {
       "question": "Which athlete is known as 'Big Tiger'?",
@@ -181,7 +181,7 @@
       "b": "Usain Bolt",
       "c": "Tiger Woods",
       "d": "Michael Jordan",
-      "answer": "Tiger Woods"
+      "answer": 3
     },
     {
       "question": "In what year did the first Summer Olympics with women's participation take place?",
@@ -189,7 +189,7 @@
       "b": "1928",
       "c": "1956",
       "d": "1980",
-      "answer": "1928"
+      "answer": 2
     },
     {
       "question": "How many basketball players make up a team in traditional basketball?",
@@ -197,7 +197,7 @@
       "b": "6",
       "c": "5",
       "d": "7",
-      "answer": "5"
+      "answer": 3
     },
     {
       "question": "Which style of wrestling employs holds, throws, and pins?",
@@ -205,7 +205,7 @@
       "b": "Greco-Roman wrestling",
       "c": "Judo",
       "d": "Kickboxing",
-      "answer": "Freestyle wrestling"
+      "answer": 1
     },
     {
       "question": "Which city hosted the 2016 Summer Olympics?",
@@ -213,7 +213,7 @@
       "b": "Rio de Janeiro",
       "c": "Athens",
       "d": "Sochi",
-      "answer": "Rio de Janeiro"
+      "answer": 2
     },
     {
       "question": "Which athlete is known as the 'Lightning Bolt' in the world of track and field?",
@@ -221,7 +221,7 @@
       "b": "Asafa Powell",
       "c": "Tyson Gay",
       "d": "Justin Gatlin",
-      "answer": "Usain Bolt"
+      "answer": 1
     },
     {
       "question": "In which country did the 2024 Summer Olympics take place?",
@@ -229,7 +229,7 @@
       "b": "Germany",
       "c": "Italy",
       "d": "Spain",
-      "answer": "France"
+      "answer": 1
     },
     {
       "question": "Which sport includes competitions in snowboarding?",
@@ -237,7 +237,7 @@
       "b": "Figure skating",
       "c": "Skateboarding",
       "d": "Cycling",
-      "answer": "Skateboarding"
+      "answer": 3
     }
   ]
   
