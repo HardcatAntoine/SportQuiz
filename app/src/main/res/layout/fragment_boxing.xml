@@ -124,7 +124,6 @@
             android:text="SUBMIT"
             android:textColor="@android:color/white"
             android:textSize="18sp"
-            android:textStyle="bold"
-            app:cornerRadius="10dp" />
+            android:textStyle="bold" />
     </LinearLayout>
 </ScrollView>
