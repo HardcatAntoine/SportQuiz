@@ -4,6 +4,7 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -13,6 +14,7 @@ import androidx.navigation.fragment.findNavController
 import com.google.firebase.remoteconfig.BuildConfig
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
+import java.lang.Exception
 import java.util.Locale
 
 class SplashFragment : Fragment() {
@@ -81,7 +83,12 @@ class SplashFragment : Fragment() {
         if (prefHelper.getSavedLink() == null) {
             //если ее нет - обращаемся к RemoteConfig
             //если устройство эмулятор или ссылка из RemoteConfig пустая строка -> открываем заглушку
-            fetchLinkFromFirebase()
+           try {
+               fetchLinkFromFirebase()
+           } catch (e:Exception){
+               Log.e("error", e.message ?: "")
+               findNavController().navigate(R.id.action_splashFragment_to_secondSplashFragment)
+           }
         } else {
             //ссылка есть
             //проверка подключения к интернету
@@ -110,13 +117,15 @@ class SplashFragment : Fragment() {
                 if (task.isSuccessful) {
                     val url = firebaseRemoteConfig.getString("url")
                     if (url.isEmpty() || isEmulator()) {
-                        findNavController().navigate(R.id.action_splashFragment_to_chooseQuizFragment)
+                        findNavController().navigate(R.id.action_splashFragment_to_secondSplashFragment)
                     } else {
                         prefHelper.saveLink(url)
                         val action: NavDirections =
                             SplashFragmentDirections.actionSplashFragmentToWebViewFragment(url)
                         findNavController().navigate(action)
                     }
+                } else {
+                    findNavController().navigate(R.id.action_splashFragment_to_secondSplashFragment)
                 }
             }
     }

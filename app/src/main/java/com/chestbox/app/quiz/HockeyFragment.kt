@@ -128,7 +128,7 @@ class HockeyFragment : Fragment(), View.OnClickListener {
             binding.btnSubmit.text = "FINISH"
             binding.btnSubmit.setOnClickListener {
                 val action =
-                    BasketballFragmentDirections.actionBasketballFragmentToResultFragment(
+                    HockeyFragmentDirections.actionHockeyFragmentToResultFragment(
                         mCorrectAnswers
                     )
                 findNavController().navigate(action)

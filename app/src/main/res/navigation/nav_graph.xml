@@ -11,14 +11,14 @@
         android:label="fragment_splash"
         tools:layout="@layout/fragment_splash" >
         <action
-            android:id="@+id/action_splashFragment_to_chooseQuizFragment"
-            app:destination="@id/chooseQuizFragment" />
-        <action
             android:id="@+id/action_splashFragment_to_internetDisableFragment"
             app:destination="@id/internetDisableFragment" />
         <action
             android:id="@+id/action_splashFragment_to_webViewFragment"
             app:destination="@id/webViewFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_secondSplashFragment"
+            app:destination="@id/secondSplashFragment" />
     </fragment>
     <fragment
         android:id="@+id/chooseQuizFragment"
@@ -100,4 +100,24 @@
             android:id="@+id/action_allQuestionsFragment_to_resultFragment"
             app:destination="@id/resultFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/secondSplashFragment"
+        android:name="com.chestbox.app.SecondSplashFragment"
+        android:label="fragment_second_splash"
+        tools:layout="@layout/fragment_second_splash" >
+        <action
+            android:id="@+id/action_secondSplashFragment_to_chooseQuizFragment"
+            app:destination="@id/chooseQuizFragment" />
+        <action
+            android:id="@+id/action_secondSplashFragment_to_webViewFragment"
+            app:destination="@id/webViewFragment" />
+        <action
+            android:id="@+id/action_secondSplashFragment_to_policyFailConnectionFragment"
+            app:destination="@id/policyFailConnectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/policyFailConnectionFragment"
+        android:name="com.chestbox.app.PolicyFailConnectionFragment"
+        android:label="fragment_policy_fail_connection"
+        tools:layout="@layout/fragment_policy_fail_connection" />
 </navigation>

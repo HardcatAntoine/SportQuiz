@@ -30,16 +30,13 @@ import java.text.SimpleDateFormat
 import java.util.Date
 
 class WebViewFragment : Fragment() {
-    private var _binding: FragmentWebViewBinding? = null
-    private val binding get() = _binding!!
 
-    private var imageUri: Uri? = null
+   lateinit var binding :FragmentWebViewBinding
+
     private var mUploadMessage: ValueCallback<Uri?>? = null
     private var mFilePathCallback: ValueCallback<Array<Uri>>? = null
     private var mCapturedImageURI: Uri? = null
     private var mCameraPhotoPath: String? = null
-    private val REQUEST_CODE = 1234
-    private var arg = ""
     private val args: WebViewFragmentArgs by lazy {
         WebViewFragmentArgs.fromBundle(requireArguments())
     }
@@ -48,8 +45,7 @@ class WebViewFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentWebViewBinding.inflate(inflater)
-        arg = "https://www.google.com/";
+        binding = FragmentWebViewBinding.inflate(inflater)
         return binding.root
     }
 

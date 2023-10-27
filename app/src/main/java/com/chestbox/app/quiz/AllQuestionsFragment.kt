@@ -129,7 +129,7 @@ class AllQuestionsFragment : Fragment(), View.OnClickListener {
             binding.btnSubmit.text = "FINISH"
             binding.btnSubmit.setOnClickListener {
                 val action =
-                    BasketballFragmentDirections.actionBasketballFragmentToResultFragment(
+                    AllQuestionsFragmentDirections.actionAllQuestionsFragmentToResultFragment(
                         mCorrectAnswers
                     )
                 findNavController().navigate(action)
@@ -224,6 +224,7 @@ class AllQuestionsFragment : Fragment(), View.OnClickListener {
             }
         }
     }
+
     fun getAllQuestions(context: Context): List<Questions> {
         lateinit var jsonString: String
         try {
