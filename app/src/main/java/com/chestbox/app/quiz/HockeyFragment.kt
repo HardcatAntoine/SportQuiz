@@ -36,7 +36,7 @@ class HockeyFragment : Fragment(), View.OnClickListener {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        mQuestionsList = getBasketballQuestions(requireContext())
+        mQuestionsList = getHockeyQuestions(requireContext())
 
         setQuestion()
 
@@ -223,7 +223,7 @@ class HockeyFragment : Fragment(), View.OnClickListener {
             }
         }
     }
-    fun getBasketballQuestions(context: Context): List<Questions> {
+    fun getHockeyQuestions(context: Context): List<Questions> {
         lateinit var jsonString: String
         try {
             jsonString =
