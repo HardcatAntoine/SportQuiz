@@ -28,6 +28,15 @@
         <action
             android:id="@+id/action_chooseQuizFragment_to_basketballFragment"
             app:destination="@id/basketballFragment" />
+        <action
+            android:id="@+id/action_chooseQuizFragment_to_boxingFragment"
+            app:destination="@id/boxingFragment" />
+        <action
+            android:id="@+id/action_chooseQuizFragment_to_hockeyFragment"
+            app:destination="@id/hockeyFragment" />
+        <action
+            android:id="@+id/action_chooseQuizFragment_to_allQuestionsFragment"
+            app:destination="@id/allQuestionsFragment" />
     </fragment>
     <fragment
         android:id="@+id/internetDisableFragment"
@@ -60,5 +69,32 @@
         <argument
             android:name="mCorrectAnswers"
             app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/boxingFragment"
+        android:name="com.chestbox.app.quiz.BoxingFragment"
+        android:label="fragment_boxing"
+        tools:layout="@layout/fragment_boxing" >
+        <action
+            android:id="@+id/action_boxingFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hockeyFragment"
+        android:name="com.chestbox.app.quiz.HockeyFragment"
+        android:label="fragment_hockey"
+        tools:layout="@layout/fragment_hockey" >
+        <action
+            android:id="@+id/action_hockeyFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/allQuestionsFragment"
+        android:name="com.chestbox.app.quiz.AllQuestionsFragment"
+        android:label="fragment_all_questions"
+        tools:layout="@layout/fragment_all_questions" >
+        <action
+            android:id="@+id/action_allQuestionsFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
     </fragment>
 </navigation>
